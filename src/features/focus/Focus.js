@@ -7,6 +7,7 @@ export default Focus=()=>{
             <View style={styles.titleContainer}>
                 <Text style={styles.title}>What would you like to focus on now </Text>
                 <Text>hello</Text>
+                <Text>second hello text</Text>
                 <View style={styles.inputContainer}>
                 <TextInput style={{flex:1, marginRight:10}}/>
                 <RoundedButton/>
