@@ -5,7 +5,8 @@ export default Focus=()=>{
     return(
         <View style={styles.container}>
             <View style={styles.titleContainer}>
-                <Text style={styles.title}>What would you like to focus on</Text>
+                <Text style={styles.title}>What would you like to focus on now </Text>
+                <Text>hello</Text>
                 <View style={styles.inputContainer}>
                 <TextInput style={{flex:1, marginRight:10}}/>
                 <RoundedButton/>
@@ -16,7 +17,7 @@ export default Focus=()=>{
 }
 const styles= StyleSheet.create({
     container:{
-        flex:1,
+        flex:2,
     },
     titleContainer:{
         flex:0.5,
